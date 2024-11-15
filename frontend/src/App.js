@@ -26,7 +26,7 @@ function App() {
           <Route path="/community" element={<Community />} />
           <Route path="/redeem" element={<RedeemPage />} />
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </Router>
   );
